@@ -1,0 +1,41 @@
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Release\JohnOS 10.exe.config
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Release\JohnOS 10.exe.manifest
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Release\JohnOS 10.application
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Release\JohnOS 10.exe
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Release\JohnOS 10.pdb
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Release\JohnOS 10.xml
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Release\Interop.WMPLib.dll
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Release\AxInterop.WMPLib.dll
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\Interop.WMPLib.dll
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\AxInterop.WMPLib.dll
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.vbproj.ResolveComReference.cache
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Calendar.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Clock.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Desktop.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Minesweeper.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.AboutJohnOS.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.JohnOSFileManage.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Notepad.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Yortzee.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.JIM.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.MoonPhase.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.MediaPlayer.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Browser.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.UpdateJOS.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.AboutIE.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Calc.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Resources.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.vbproj.GenerateResource.Cache
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.vbproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.TrustInfo.xml
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.exe.manifest
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.application
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.exe
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.xml
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.pdb
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.BitcoinPrice.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS 10.vbprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.RadioMarg.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Launcher.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.Maps.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\Release\JohnOS10.NetworkDiagnostic.resources

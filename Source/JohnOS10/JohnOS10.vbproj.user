@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\John\Desktop\JohnOS10\|C:\Users\John\Desktop\|C:\Users\bilkeyj\Desktop\JohnOS10\|ftp://johnbilkey.cf/johnos/update/release/|ftp://johnbilkey.cf/</PublishUrlHistory>
+    <InstallUrlHistory>http://johnbilkey.cf/johnos/update/release/|http://johnbilkey.cf/johnos/update/|http://johnbilkey.tk/johnos/update/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://johnbilkey.cf/johnos/update/|http://johnbilkey.tk/johnos/update/|http://johnbilkey.tk/johnos/|http://johnbilkey.tk/johnos/johnos10.exe/|http://johnwin98.tk/johnos/johnos10.exe/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+</Project>

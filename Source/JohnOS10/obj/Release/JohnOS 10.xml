@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+JohnOS 10
+</name>
+</assembly>
+<members>
+<member name="T:JohnOS10.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.calc">
+<summary>
+  Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;title&gt;JohnOS Calculator&lt;/title&gt;
+    &lt;link href=&quot;css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;style&gt;
+        *,
+        *:before,
+        *:after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+     [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.clock">
+<summary>
+  Looks up a localized string similar to &lt;body style=&quot;background-color:teal;text-align:center&quot;&gt;
+&lt;font size=&quot;5&quot; color=&quot;white&quot; face=&quot;Helvetica, Arial, sans-serif&quot;&gt; &lt;b&gt;
+&lt;div id=&quot;clockbox&quot;&gt;&lt;/div&gt;
+&lt;/b&gt;&lt;/font&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+var tday=[&quot;Sunday&quot;,&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;,&quot;Thursday&quot;,&quot;Friday&quot;,&quot;Saturday&quot;];
+var tmonth=[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;,&quot;July&quot;,&quot;August&quot;,&quot;September&quot;,&quot;October&quot;,&quot;November&quot;,&quot;December&quot;];
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(), [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.clouds">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.default_wall">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.gone_fishing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.internetconnected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.josconnect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.moon">
+<summary>
+  Looks up a localized string similar to &lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=windows-1252&quot;&gt;
+&lt;title&gt;Moon Phase Calculator&lt;/title&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=240&quot;&gt;
+&lt;style&gt;
+body { margin:0px; width:240px; height:176px; overflow:hidden; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&quot;black&quot;&gt;
+&lt;script language=&quot;JavaScript&quot;&gt;
+
+// Star Dust - Background with twinkle stars
+// This script and many more from :
+// http://rainbow.arch.scriptmania.com
+
+// Insert these lines just after the &lt;BODY&gt; tag .
+
+//----   C [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.msoe_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.nicole">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.nointernet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.nt_server">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.river_sumida">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.test">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.ua">
+<summary>
+  Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;font face=&quot;Helvetica, Arial, sans-serif&quot;&gt;
+&lt;body&gt;
+&lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;
+&lt;script&gt;
+  var x = navigator.userAgent;
+  document.getElementById(&quot;demo&quot;).innerHTML = x;
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/font&gt;
+&lt;/html&gt;.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.update">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.win2k">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:JohnOS10.BrowserPatcher.GetCurrentBrowserVersion">
+ Get current version of Internet Explorer on user's machine
+ Returns IE version # (throws exception if IE is not present or pre-version 7)
+</member>
+</members>
+</doc>

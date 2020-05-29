@@ -1,0 +1,38 @@
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.vbprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.exe
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.xml
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.pdb
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Debug\JohnOS 10.exe.config
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Debug\JohnOS 10.exe.manifest
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Debug\JohnOS 10.application
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Debug\JohnOS 10.exe
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Debug\JohnOS 10.pdb
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Debug\JohnOS 10.xml
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Debug\Interop.WMPLib.dll
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.vbproj.ResolveComReference.cache
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.AboutBox1.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Calendar.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Clock.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Desktop.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Minesweeper.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.AboutJohnOS.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.JohnOSFileManage.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Notepad.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Yortzee.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.JIM.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.MoonPhase.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.MediaPlayer.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Browser.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.UpdateJOS.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.AboutIE.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Calc.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Resources.resources
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.vbproj.GenerateResource.Cache
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.TrustInfo.xml
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.exe.manifest
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.application
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS 10.vbproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\Projects\JohnOS\JohnOS Visual Studio Files\WindowsApplication1\obj\x86\Debug\JohnOS10.Bitcoin.resources

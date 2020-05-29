@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{871B431B-E55C-4EF6-BF0B-23981223A31D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>JohnOS10.My.MyApplication</StartupObject>
+    <RootNamespace>JohnOS10</RootNamespace>
+    <AssemblyName>JohnOS 10</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>C:\Users\John\Desktop\JohnOS10\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>5</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <UpdateUrl>http://johnbilkey.cf/johnos/update/</UpdateUrl>
+    <TargetCulture>en-US</TargetCulture>
+    <ProductName>JohnOS 10</ProductName>
+    <PublisherName>JohnOS</PublisherName>
+    <SuiteName>JohnOS</SuiteName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>41</ApplicationRevision>
+    <ApplicationVersion>10.0.0.41</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>JohnOS 10.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>JohnOS 10.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1B4E40E6A445912F600449899F67B54F0002D041</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>JohnOS 10.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>JohnOS 10.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>JohnOS 10.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="AxWMPLib" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="allPrograms.Designer.vb">
+      <DependentUpon>allPrograms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="allPrograms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="browserPatcher.Designer.vb">
+      <DependentUpon>browserPatcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="browserPatcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar.Designer.vb">
+      <DependentUpon>Calendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clock.Designer.vb">
+      <DependentUpon>Clock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Egg.Designer.vb">
+      <DependentUpon>Egg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Egg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplaySettings.Designer.vb">
+      <DependentUpon>DisplaySettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DisplaySettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Themes.Designer.vb">
+      <DependentUpon>Themes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Themes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Run.Designer.vb">
+      <DependentUpon>Run.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Run.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RunError.Designer.vb">
+      <DependentUpon>RunError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RunError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.vb">
+      <DependentUpon>Welcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shutdown.Designer.vb">
+      <DependentUpon>Shutdown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shutdown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desktop.Designer.vb">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Desktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BitcoinPrice.Designer.vb">
+      <DependentUpon>BitcoinPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BitcoinPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maps.Designer.vb">
+      <DependentUpon>Maps.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maps.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launcher.Designer.vb">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagnostic.Designer.vb">
+      <DependentUpon>NetworkDiagnostic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiagnostic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadioMarg.Designer.vb">
+      <DependentUpon>RadioMarg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RadioMarg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minesweeper.Designer.vb">
+      <DependentUpon>Minesweeper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Minesweeper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About_JOS.Designer.vb">
+      <DependentUpon>About_JOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About_JOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileManager.Designer.vb">
+      <DependentUpon>FileManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FileManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notepad.Designer.vb">
+      <DependentUpon>Notepad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notepad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartMenu.Designer.vb">
+      <DependentUpon>StartMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yortzee.Designer.vb">
+      <DependentUpon>Yortzee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yortzee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JIM.Designer.vb">
+      <DependentUpon>JIM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JIM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoonPhase.Designer.vb">
+      <DependentUpon>MoonPhase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MoonPhase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MediaPlayer.Designer.vb">
+      <DependentUpon>MediaPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MediaPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browser.Designer.vb">
+      <DependentUpon>Browser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Browser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update.Designer.vb">
+      <DependentUpon>Update.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutIE.Designer.vb">
+      <DependentUpon>AboutIE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutIE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calc.Designer.vb">
+      <DependentUpon>Calc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="allPrograms.resx">
+      <DependentUpon>allPrograms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="browserPatcher.resx">
+      <DependentUpon>browserPatcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar.resx">
+      <DependentUpon>Calendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clock.resx">
+      <DependentUpon>Clock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplaySettings.resx">
+      <DependentUpon>DisplaySettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Egg.resx">
+      <DependentUpon>Egg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Run.resx">
+      <DependentUpon>Run.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunError.resx">
+      <DependentUpon>RunError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Themes.resx">
+      <DependentUpon>Themes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desktop.resx">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitcoinPrice.resx">
+      <DependentUpon>BitcoinPrice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps.resx">
+      <DependentUpon>Maps.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launcher.resx">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiagnostic.resx">
+      <DependentUpon>NetworkDiagnostic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioMarg.resx">
+      <DependentUpon>RadioMarg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minesweeper.resx">
+      <DependentUpon>Minesweeper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About_JOS.resx">
+      <DependentUpon>About_JOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileManager.resx">
+      <DependentUpon>FileManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notepad.resx">
+      <DependentUpon>Notepad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shutdown.resx">
+      <DependentUpon>Shutdown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartMenu.resx">
+      <DependentUpon>StartMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yortzee.resx">
+      <DependentUpon>Yortzee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JIM.resx">
+      <DependentUpon>JIM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoonPhase.resx">
+      <DependentUpon>MoonPhase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MediaPlayer.resx">
+      <DependentUpon>MediaPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser.resx">
+      <DependentUpon>Browser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update.resx">
+      <DependentUpon>Update.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutIE.resx">
+      <DependentUpon>AboutIE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calc.resx">
+      <DependentUpon>Calc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram5.cd" />
+    <None Include="ClassDiagram6.cd" />
+    <None Include="ClassDiagram7.cd" />
+    <None Include="ClassDiagram8.cd" />
+    <None Include="ClassDiagram9.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JohnOS 10.ico" />
+    <None Include="Resources\nicole.jpg" />
+    <None Include="Resources\internetconnected.png" />
+    <None Include="Resources\update.png" />
+    <None Include="Resources\test.png" />
+    <None Include="Resources\nointernet.png" />
+    <None Include="Resources\josconnect.png" />
+    <None Include="Resources\ua.txt" />
+    <None Include="Resources\background.gif" />
+    <None Include="Resources\river_sumida.jpg" />
+    <None Include="Resources\gone_fishing.jpg" />
+    <None Include="Resources\msoe-logo.png" />
+    <None Include="Resources\miniicon.png" />
+    <None Include="Resources\clouds.jpg" />
+    <None Include="Resources\classic2.jpg" />
+    <None Include="Resources\clock.txt" />
+    <None Include="Resources\calc.txt" />
+    <None Include="Resources\moon.txt" />
+    <None Include="Resources\default-wall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
