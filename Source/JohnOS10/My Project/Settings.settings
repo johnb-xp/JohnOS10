@@ -27,7 +27,7 @@
       <Value Profile="(Default)">15, 143, 234</Value>
     </Setting>
     <Setting Name="backColor" Type="System.Drawing.Color" Scope="User">
-      <Value Profile="(Default)">236, 233, 216</Value>
+      <Value Profile="(Default)">White</Value>
     </Setting>
     <Setting Name="startButtonColor" Type="System.Drawing.Color" Scope="User">
       <Value Profile="(Default)">Green</Value>

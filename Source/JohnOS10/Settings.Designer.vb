@@ -29,28 +29,17 @@ Partial Class Settings
         Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("JohnOS Update", 0)
         Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Network Diagnostic", 2)
         Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Reset Settings", 7)
-        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Themes", 6)
+        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Resource Monitor", 8)
+        Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Themes", 6)
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Settings))
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.pbRAM = New System.Windows.Forms.ProgressBar()
-        Me.pbCPU = New System.Windows.Forms.ProgressBar()
-        Me.lblRAM = New System.Windows.Forms.Label()
-        Me.lblCPU = New System.Windows.Forms.Label()
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.SettingsIcons = New System.Windows.Forms.ImageList(Me.components)
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.pcCPU = New System.Diagnostics.PerformanceCounter()
-        Me.pcRAM = New System.Diagnostics.PerformanceCounter()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
-        CType(Me.pcCPU, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pcRAM, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -64,63 +53,12 @@ Partial Class Settings
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = Global.JohnOS10.My.MySettings.Default.startButtonTextColor
-        Me.Button1.Location = New System.Drawing.Point(541, 2)
+        Me.Button1.Location = New System.Drawing.Point(359, 2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(21, 22)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "x"
         Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Panel1
-        '
-        Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel1.BackColor = Global.JohnOS10.My.MySettings.Default.backColor
-        Me.Panel1.Controls.Add(Me.pbRAM)
-        Me.Panel1.Controls.Add(Me.pbCPU)
-        Me.Panel1.Controls.Add(Me.lblRAM)
-        Me.Panel1.Controls.Add(Me.lblCPU)
-        Me.Panel1.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.JohnOS10.My.MySettings.Default, "backColor", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
-        Me.Panel1.Location = New System.Drawing.Point(3, 246)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(560, 41)
-        Me.Panel1.TabIndex = 13
-        '
-        'pbRAM
-        '
-        Me.pbRAM.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pbRAM.Location = New System.Drawing.Point(384, 9)
-        Me.pbRAM.Name = "pbRAM"
-        Me.pbRAM.Size = New System.Drawing.Size(169, 23)
-        Me.pbRAM.TabIndex = 12
-        '
-        'pbCPU
-        '
-        Me.pbCPU.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.pbCPU.Location = New System.Drawing.Point(67, 9)
-        Me.pbCPU.Name = "pbCPU"
-        Me.pbCPU.Size = New System.Drawing.Size(169, 23)
-        Me.pbCPU.TabIndex = 11
-        '
-        'lblRAM
-        '
-        Me.lblRAM.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblRAM.AutoSize = True
-        Me.lblRAM.Location = New System.Drawing.Point(321, 12)
-        Me.lblRAM.Name = "lblRAM"
-        Me.lblRAM.Size = New System.Drawing.Size(31, 13)
-        Me.lblRAM.TabIndex = 10
-        Me.lblRAM.Text = "RAM"
-        '
-        'lblCPU
-        '
-        Me.lblCPU.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.lblCPU.AutoSize = True
-        Me.lblCPU.Location = New System.Drawing.Point(7, 12)
-        Me.lblCPU.Name = "lblCPU"
-        Me.lblCPU.Size = New System.Drawing.Size(29, 13)
-        Me.lblCPU.TabIndex = 9
-        Me.lblCPU.Text = "CPU"
         '
         'ListView1
         '
@@ -128,13 +66,15 @@ Partial Class Settings
         Me.ListView1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ListView1.BackColor = System.Drawing.Color.White
+        Me.ListView1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.ListView1.Font = New System.Drawing.Font("Tahoma", 10.0!)
         Me.ListView1.HideSelection = False
-        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7})
+        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8})
         Me.ListView1.LargeImageList = Me.SettingsIcons
         Me.ListView1.Location = New System.Drawing.Point(2, 26)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(562, 223)
+        Me.ListView1.Size = New System.Drawing.Size(380, 188)
         Me.ListView1.SmallImageList = Me.SettingsIcons
         Me.ListView1.Sorting = System.Windows.Forms.SortOrder.Ascending
         Me.ListView1.TabIndex = 32
@@ -153,6 +93,7 @@ Partial Class Settings
         Me.SettingsIcons.Images.SetKeyName(5, "device-computer.png")
         Me.SettingsIcons.Images.SetKeyName(6, "layers.png")
         Me.SettingsIcons.Images.SetKeyName(7, "life-buoy.png")
+        Me.SettingsIcons.Images.SetKeyName(8, "monitor.png")
         '
         'Panel2
         '
@@ -166,7 +107,7 @@ Partial Class Settings
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(566, 26)
+        Me.Panel2.Size = New System.Drawing.Size(384, 26)
         Me.Panel2.TabIndex = 14
         '
         'Button9
@@ -179,7 +120,7 @@ Partial Class Settings
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = Global.JohnOS10.My.MySettings.Default.startButtonTextColor
-        Me.Button9.Location = New System.Drawing.Point(515, 2)
+        Me.Button9.Location = New System.Drawing.Point(333, 2)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(21, 22)
         Me.Button9.TabIndex = 1
@@ -197,7 +138,7 @@ Partial Class Settings
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = Global.JohnOS10.My.MySettings.Default.startButtonTextColor
-        Me.Button3.Location = New System.Drawing.Point(489, 2)
+        Me.Button3.Location = New System.Drawing.Point(307, 2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(21, 22)
         Me.Button3.TabIndex = 2
@@ -219,32 +160,12 @@ Partial Class Settings
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Control Panel"
         '
-        'pcCPU
-        '
-        Me.pcCPU.CategoryName = "Processor"
-        Me.pcCPU.CounterName = "% Processor Time"
-        Me.pcCPU.InstanceName = "_Total"
-        '
-        'pcRAM
-        '
-        Me.pcRAM.CategoryName = "Memory"
-        Me.pcRAM.CounterName = "% Committed Bytes In Use"
-        '
-        'Timer1
-        '
-        '
-        'OpenFileDialog1
-        '
-        Me.OpenFileDialog1.Filter = "Image Files (*.bmp;*.jpg;*.jpeg,*.png)|*.BMP;*.JPG;*.JPEG;*.PNG"
-        Me.OpenFileDialog1.Title = "Choose an Image"
-        '
         'Settings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = Global.JohnOS10.My.MySettings.Default.titleBarColor
-        Me.ClientSize = New System.Drawing.Size(566, 290)
-        Me.Controls.Add(Me.Panel1)
+        Me.ClientSize = New System.Drawing.Size(384, 216)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.Panel2)
         Me.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.JohnOS10.My.MySettings.Default, "titleBarColor", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
@@ -253,28 +174,15 @@ Partial Class Settings
         Me.Name = "Settings"
         Me.Text = "Control Panel"
         Me.TopMost = True
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        CType(Me.pcCPU, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pcRAM, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents Button1 As Button
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Button3 As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents pbRAM As ProgressBar
-    Friend WithEvents pbCPU As ProgressBar
-    Friend WithEvents lblRAM As Label
-    Friend WithEvents lblCPU As Label
-    Friend WithEvents pcCPU As PerformanceCounter
-    Friend WithEvents pcRAM As PerformanceCounter
-    Friend WithEvents Timer1 As Timer
-    Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents Button9 As Button
     Friend WithEvents ListView1 As ListView
     Friend WithEvents SettingsIcons As ImageList

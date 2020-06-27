@@ -43,7 +43,7 @@ Partial Class Calendar
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 9.0!)
         Me.Button1.ForeColor = Global.JohnOS10.My.MySettings.Default.startButtonTextColor
-        Me.Button1.Location = New System.Drawing.Point(213, 2)
+        Me.Button1.Location = New System.Drawing.Point(206, 2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(21, 22)
         Me.Button1.TabIndex = 1
@@ -59,7 +59,7 @@ Partial Class Calendar
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Location = New System.Drawing.Point(3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(236, 176)
+        Me.Panel1.Size = New System.Drawing.Size(228, 188)
         Me.Panel1.TabIndex = 2
         '
         'MonthCalendar1
@@ -80,7 +80,7 @@ Partial Class Calendar
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(236, 26)
+        Me.Panel2.Size = New System.Drawing.Size(228, 26)
         Me.Panel2.TabIndex = 11
         '
         'Button3
@@ -94,7 +94,7 @@ Partial Class Calendar
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = Global.JohnOS10.My.MySettings.Default.startButtonTextColor
-        Me.Button3.Location = New System.Drawing.Point(188, 2)
+        Me.Button3.Location = New System.Drawing.Point(180, 2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(21, 22)
         Me.Button3.TabIndex = 2
@@ -122,7 +122,7 @@ Partial Class Calendar
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = Global.JohnOS10.My.MySettings.Default.titleBarColor
-        Me.ClientSize = New System.Drawing.Size(239, 182)
+        Me.ClientSize = New System.Drawing.Size(234, 194)
         Me.Controls.Add(Me.Panel1)
         Me.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.JohnOS10.My.MySettings.Default, "titleBarColor", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None

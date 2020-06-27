@@ -21,18 +21,6 @@
 
     Private Sub Settings_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size
-        'SET THE INTERVAL TO 500.
-        Timer1.Interval = 500
-        'START THE TIMER 
-        Timer1.Start()
-    End Sub
-    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
-        'SET PROGESSBAR TO THE PERFORMANCE VALUE.
-        pbCPU.Value = pcCPU.NextValue
-        pbRAM.Value = pcRAM.NextValue
-        'SET THE LABEL TO PROGRESS BAR VALUE.
-        lblCPU.Text = "CPU: " & pbCPU.Value & "%"
-        lblRAM.Text = "RAM: " & pbRAM.Value & "%"
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
@@ -56,9 +44,10 @@
             NetworkDiagnostic.Show()
         ElseIf ListView1.SelectedIndices.Contains(5) Then
             My.Settings.FirstRun = True
-            My.Settings.browserPatched = False
             My.Settings.Save()
         ElseIf ListView1.SelectedIndices.Contains(6) Then
+            ResourceMonitor.Show()
+        ElseIf ListView1.SelectedIndices.Contains(7) Then
             Themes.Show()
         End If
     End Sub
@@ -80,11 +69,12 @@
                 My.Settings.FirstRun = True
                 My.Settings.Save()
             ElseIf ListView1.SelectedIndices.Contains(6) Then
+                ResourceMonitor.Show()
+            ElseIf ListView1.SelectedIndices.Contains(7) Then
                 Themes.Show()
             End If
             e.Handled = True
             e.SuppressKeyPress = True
         End If
     End Sub
-
 End Class

@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Import Include="AxWMPLib" />
+    <Import Include="JohnOS10" />
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
     <Import Include="System.Collections" />
@@ -153,6 +154,7 @@
     <Import Include="System.Windows.Forms" />
     <Import Include="System.Linq" />
     <Import Include="System.Xml.Linq" />
+    <Import Include="WMPLib" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="allPrograms.Designer.vb">
@@ -190,6 +192,12 @@
       <DependentUpon>DisplaySettings.vb</DependentUpon>
     </Compile>
     <Compile Include="DisplaySettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourceMonitor.Designer.vb">
+      <DependentUpon>ResourceMonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceMonitor.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
@@ -377,6 +385,9 @@
     <EmbeddedResource Include="Egg.resx">
       <DependentUpon>Egg.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ResourceMonitor.resx">
+      <DependentUpon>ResourceMonitor.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Run.resx">
       <DependentUpon>Run.vb</DependentUpon>
     </EmbeddedResource>
@@ -525,6 +536,9 @@
     <None Include="Resources\default-wall.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
     <COMReference Include="AxWMPLib">
       <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -542,9 +556,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

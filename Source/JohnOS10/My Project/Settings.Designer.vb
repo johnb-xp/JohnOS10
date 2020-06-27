@@ -152,7 +152,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("236, 233, 216")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("White")>  _
         Public Property backColor() As Global.System.Drawing.Color
             Get
                 Return CType(Me("backColor"),Global.System.Drawing.Color)
