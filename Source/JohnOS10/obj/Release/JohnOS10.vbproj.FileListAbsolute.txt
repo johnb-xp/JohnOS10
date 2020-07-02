@@ -191,3 +191,5 @@ E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.application
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.exe
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.xml
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.pdb
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbprojAssemblyReference.cache
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.CoreCompileInputs.cache

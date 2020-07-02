@@ -252,14 +252,12 @@ Partial Class MediaPlayer
         '
         'AxWindowsMediaPlayer1
         '
-        Me.AxWindowsMediaPlayer1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.AxWindowsMediaPlayer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.AxWindowsMediaPlayer1.Enabled = True
-        Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(0, 27)
+        Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(0, 26)
         Me.AxWindowsMediaPlayer1.Name = "AxWindowsMediaPlayer1"
         Me.AxWindowsMediaPlayer1.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(762, 464)
+        Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(762, 463)
         Me.AxWindowsMediaPlayer1.TabIndex = 34
         Me.AxWindowsMediaPlayer1.TabStop = False
         '

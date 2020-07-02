@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="335872">
       <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Yn7wclvjv39sXJRCmTZ6vYFsceQ=</dsig:DigestValue>
+        <dsig:DigestValue>eUNXkAjOmfgjN+cIDwRDMf9Kpow=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,17 +74,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>aO6ltvsfAMkEADvytyWWXVH+A74=</dsig:DigestValue>
+        <dsig:DigestValue>JhXUUs0GiBteqCNibhnHpKW1aAE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="JohnOS 10.exe.config" size="2688">
+  <file name="JohnOS 10.exe.config" size="2685">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>N+VjVby87gGdxgleS7ZUPTKcl5c=</dsig:DigestValue>
+      <dsig:DigestValue>Fr7xc4lTlodg7ushxYfrM+o569Q=</dsig:DigestValue>
     </hash>
   </file>
   <file name="JohnOS 10.ico" size="370070">

@@ -28,9 +28,9 @@ Partial Class Calendar
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.SuspendLayout()
+        Me.Panel1.SuspendLayout
+        Me.Panel2.SuspendLayout
+        Me.SuspendLayout
         '
         'Button1
         '
