@@ -140,7 +140,15 @@ E:\Projects\JohnOS\JohnOS Visual Studio Files\JohnOS10\bin\Release\AxInterop.WMP
 E:\Projects\JohnOS\JohnOS Visual Studio Files\JohnOS10\obj\Release\Interop.WMPLib.dll
 E:\Projects\JohnOS\JohnOS Visual Studio Files\JohnOS10\obj\Release\AxInterop.WMPLib.dll
 E:\Projects\JohnOS\JohnOS Visual Studio Files\JohnOS10\obj\Release\JohnOS10.vbproj.ResolveComReference.cache
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.FileManager.resources
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.exe.config
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.exe.manifest
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.application
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.exe
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.pdb
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.xml
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Interop.WMPLib.dll
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\AxInterop.WMPLib.dll
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbprojAssemblyReference.cache
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\Interop.WMPLib.dll
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\AxInterop.WMPLib.dll
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.ResolveComReference.cache
@@ -164,6 +172,7 @@ E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.NetworkDiagnos
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.RadioMarg.resources
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Minesweeper.resources
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.AboutJohnOS.resources
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.FileManager.resources
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Notepad.resources
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Shutdown.resources
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.StartMenu.resources
@@ -177,19 +186,10 @@ E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.AboutIE.resour
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Calc.resources
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Resources.resources
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.GenerateResource.cache
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.exe.config
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.exe.manifest
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.application
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.exe
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.pdb
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.xml
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Interop.WMPLib.dll
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\AxInterop.WMPLib.dll
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.CoreCompileInputs.cache
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.TrustInfo.xml
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.exe.manifest
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.application
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.exe
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.xml
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.pdb
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbprojAssemblyReference.cache
-E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.CoreCompileInputs.cache
