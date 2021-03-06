@@ -27,8 +27,12 @@
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        If ComboBox1.Text = "Mountain" Then
+        If ComboBox1.Text = "Default" Then
             PictureBox.BackgroundImage = My.Resources.default_wall
+        ElseIf ComboBox1.Text = "Lewandowski" Then
+            PictureBox.BackgroundImage = My.Resources.lewandowski
+        ElseIf ComboBox1.Text = "Mountains" Then
+            PictureBox.BackgroundImage = My.Resources.mountains
         ElseIf ComboBox1.Text = "None" Then
             PictureBox.BackgroundImage = Nothing
         ElseIf ComboBox1.Text = "Cloud Leap" Then
@@ -41,6 +45,9 @@
             PictureBox.BackgroundImage = My.Resources.river_sumida
         ElseIf ComboBox1.Text = "Gone Fishing" Then
             PictureBox.BackgroundImage = My.Resources.gone_fishing
+        ElseIf ComboBox1.Text = "Beach" Then
+            PictureBox.BackgroundImage = My.Resources.beach
+            '' CC by SA 4.0 - By ALEXEY ABROSIMOV
         ElseIf ComboBox1.Text = "NT Server" Then
             PictureBox.BackgroundImage = My.Resources.nt_server
         End If
@@ -49,9 +56,7 @@
     Private Sub ComboBox1_Egg(sender As Object, e As EventArgs) Handles ComboBox1.Click
         Dim r As String = ComboBox1.Text.ToLower()
         If r = "john" Then
-            PictureBox.BackgroundImage = My.Resources.nicole
-        ElseIf r = "nicole" Then
-            PictureBox.BackgroundImage = My.Resources.nicole
+            PictureBox.BackgroundImage = My.Resources.john
         End If
     End Sub
 
@@ -59,7 +64,7 @@
         ofd.ShowDialog()
     End Sub
 
-    Private Sub ofd_FileOk(sender As System.Object, e As System.ComponentModel.CancelEventArgs) Handles ofd.FileOk
+    Private Sub Ofd_FileOk(sender As System.Object, e As System.ComponentModel.CancelEventArgs) Handles ofd.FileOk
         PictureBox.BackgroundImage = Image.FromFile(ofd.FileName)
     End Sub
 

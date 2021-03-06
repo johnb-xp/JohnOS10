@@ -6,17 +6,17 @@
     <deploymentProvider codebase="http://johnbilkey.cf/johnos/update/JohnOS%2010.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.6.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="JohnOS 10.exe.manifest" size="5885">
+    <dependentAssembly dependencyType="install" codebase="JohnOS 10.exe.manifest" size="9317">
       <assemblyIdentity name="JohnOS 10.exe" version="10.0.0.42" publicKeyToken="0000000000000000" language="en-US" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>aSp8Tb89zEdh258BqBTT7rIFZ2E=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kx5nfZLPVlPpTRfO02G/Sv0s5Hknu7mLO6dLqL8QV+c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

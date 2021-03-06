@@ -49,8 +49,8 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NwdEUj0OZFQcoCK0yEKXq8Hx4gE=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+HZ/V/XAdHSt9Un4fpkTMze/IWFWpVTXhqEE3lzRKb0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,30 +61,75 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>M83OIVGF1gphe2uPSI9Aqsnknkg=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>enhjfE9JxdfS/Zzkf4RHZg6aT1dx4L7netckiN4GY3c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JohnOS 10.exe" size="3326464">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JohnOS 10.exe" size="6763520">
       <assemblyIdentity name="JohnOS 10" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4w92i1FEoysw3CpsXJwmBZrJeq0=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gPRKTg9wWs4mqzO3hwiHcLl99jdsEI9UTxZHLThlm5M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="JohnOS 10.exe.config" size="2685">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Core.dll" size="143264">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Core" version="1.0.705.50" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RYGCfdhJqgRBMO8fFFcGswmXpUdQ+2eFATE4NvS5bRk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.WinForms.dll" size="28568">
+      <assemblyIdentity name="Microsoft.Web.WebView2.WinForms" version="1.0.705.50" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EBl06LLoSqp8YXyh1+cP4C3y1FDBoezdkkyPNP9Bus0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Wpf.dll" size="31128">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Wpf" version="1.0.705.50" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2IK+OhmZ45YYKmh6KoOV+F8eQ2TmVsTDzloz0z1VHus=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="arm64\WebView2Loader.dll" size="123808">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Fr7xc4lTlodg7ushxYfrM+o569Q=</dsig:DigestValue>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m9k51Fck6wVVDZzwaPIEnH8NsAyh7UFLR7/+JHh193c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="JohnOS 10.exe.config" size="2687">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RPFsRZ1GfSo0gSfZiHdu4Wlh8qw+T2vhXda+Uhoqvrc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="JohnOS 10.ico" size="370070">
@@ -92,8 +137,26 @@
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>0rP4fpGxznU3tsgeCHtfpCUONXo=</dsig:DigestValue>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cw2nw1sy79BmgMa3MLMl9mGZkeWuhkL5nHEVzu5cX3k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x64\WebView2Loader.dll" size="136088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bbBmSKdJ66JthZ+tTU4mJcKLjGDodwvHbH6kRUJFQ/U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\WebView2Loader.dll" size="109984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d6KjCXwK9uiE0vdkPf44CURTMJ3SQzwzcw/KEKBHdBE=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

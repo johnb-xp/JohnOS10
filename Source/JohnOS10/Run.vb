@@ -94,10 +94,8 @@
                 allPrograms.Show()
             Case "egg"
                 Egg.Show()
-            Case "nicole"
-                Egg.Nicole()
             Case "john"
-                Egg.Nicole()
+                Egg.EasterEgg()
             Case "welcome"
                 Welcome.Show()
             Case "display"
@@ -110,6 +108,10 @@
                 AboutIE.Show()
             Case "browser -patch"
                 BrowserPatcher.Show()
+            Case "browser -new"
+                newBrowser.Show()
+            Case "newBrowser"
+                newBrowser.Show()
             Case "reset"
                 My.Settings.FirstRun = True
                 My.Settings.Save()

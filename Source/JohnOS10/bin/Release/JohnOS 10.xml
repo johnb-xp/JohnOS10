@@ -22,6 +22,11 @@ JohnOS 10
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:JohnOS10.My.Resources.Resources.beach">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:JohnOS10.My.Resources.Resources.calc">
 <summary>
   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
@@ -80,7 +85,17 @@ var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(), [rest of string was t
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:JohnOS10.My.Resources.Resources.john">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:JohnOS10.My.Resources.Resources.josconnect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JohnOS10.My.Resources.Resources.lewandowski">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -107,12 +122,12 @@ body { margin:0px; width:240px; height:176px; overflow:hidden; }
 //----   C [rest of string was truncated]&quot;;.
 </summary>
 </member>
-<member name="P:JohnOS10.My.Resources.Resources.msoe_logo">
+<member name="P:JohnOS10.My.Resources.Resources.mountains">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:JohnOS10.My.Resources.Resources.nicole">
+<member name="P:JohnOS10.My.Resources.Resources.msoe_logo">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

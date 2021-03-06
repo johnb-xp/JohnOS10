@@ -14,9 +14,9 @@
         End If
     End Sub
 
-    Public Sub Nicole()
+    Public Sub EasterEgg()
         Me.Show()
-        PictureBox1.BackgroundImage = My.Resources.nicole
+        PictureBox1.BackgroundImage = My.Resources.john
     End Sub
 
     Private Sub Egg_Load(sender As Object, e As EventArgs) Handles MyBase.Load

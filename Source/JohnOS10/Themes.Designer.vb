@@ -214,7 +214,7 @@ Partial Class Themes
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Luna", "Classic", "Olive Green", "Royale Noir", "Royale", "Zune", "Embedded", "MSOE Raiders"})
+        Me.ComboBox1.Items.AddRange(New Object() {"Luna", "Classic", "Olive Green", "Royale Noir", "Royale", "Zune", "Embedded", "Tropical", "MSOE Raiders"})
         Me.ComboBox1.Location = New System.Drawing.Point(9, 6)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(254, 23)

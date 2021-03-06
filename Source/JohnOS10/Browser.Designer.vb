@@ -35,9 +35,9 @@ Partial Class Browser
         Me.refreshButton = New System.Windows.Forms.Button()
         Me.informationButton = New System.Windows.Forms.Button()
         Me.homeButton = New System.Windows.Forms.Button()
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.searchButton = New System.Windows.Forms.Button()
+        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -231,19 +231,6 @@ Partial Class Browser
         Me.homeButton.TabIndex = 4
         Me.homeButton.UseVisualStyleBackColor = False
         '
-        'WebBrowser1
-        '
-        Me.WebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.WebBrowser1.Location = New System.Drawing.Point(3, 58)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.ScriptErrorsSuppressed = True
-        Me.WebBrowser1.Size = New System.Drawing.Size(793, 509)
-        Me.WebBrowser1.TabIndex = 13
-        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.cf/johnos", System.UriKind.Absolute)
-        '
         'Panel2
         '
         Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -278,7 +265,20 @@ Partial Class Browser
         Me.searchButton.TabIndex = 7
         Me.searchButton.UseVisualStyleBackColor = False
         '
-        'Browser
+        'WebBrowser1
+        '
+        Me.WebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.WebBrowser1.Location = New System.Drawing.Point(3, 58)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.ScriptErrorsSuppressed = True
+        Me.WebBrowser1.Size = New System.Drawing.Size(793, 509)
+        Me.WebBrowser1.TabIndex = 13
+        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.cf/johnos", System.UriKind.Absolute)
+        '
+        'oldBrowser
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
@@ -294,7 +294,7 @@ Partial Class Browser
         Me.ForeColor = System.Drawing.Color.Transparent
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Browser"
+        Me.Name = "oldBrowser"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Browser"
@@ -318,7 +318,7 @@ Partial Class Browser
     Friend WithEvents homeButton As System.Windows.Forms.Button
     Friend WithEvents minButton As Button
     Friend WithEvents maxButton As Button
-    Friend WithEvents WebBrowser1 As WebBrowser
     Friend WithEvents Panel2 As Panel
     Friend WithEvents searchButton As Button
+    Friend WithEvents WebBrowser1 As WebBrowser
 End Class

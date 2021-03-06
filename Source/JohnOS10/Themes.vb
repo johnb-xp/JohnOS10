@@ -152,6 +152,22 @@
             startButtonIcon.BackColor = sampleStartButton.BackColor()
             sampleXButton.ForeColor = sampleStartButton.ForeColor()
             sampleMinButton.ForeColor = sampleXButton.ForeColor()
+
+        ElseIf ComboBox1.Text = "Tropical" Then
+            sampleTitleBar.BackColor = DirectCast(New ColorConverter().ConvertFromString("1, 194, 217"), Color)
+            sampleXButton.BackColor = DirectCast(New ColorConverter().ConvertFromString("232, 109, 50"), Color)
+            sampleMinButton.BackColor = DirectCast(New ColorConverter().ConvertFromString("215, 223, 131"), Color)
+            sampleStartButton.BackColor = DirectCast(New ColorConverter().ConvertFromString("255, 106, 38"), Color)
+            sampleTaskbar.BackColor = DirectCast(New ColorConverter().ConvertFromString("1, 194, 217"), Color)
+            sampleNotifBar.BackColor = DirectCast(New ColorConverter().ConvertFromString("194, 205, 67"), Color)
+            samplePanel.BackColor = DirectCast(New ColorConverter().ConvertFromString("243, 243, 243"), Color)
+            sampleTitleBar.ForeColor = DirectCast(New ColorConverter().ConvertFromString("103, 103, 103"), Color)
+            sampleStartButton.ForeColor = DirectCast(New ColorConverter().ConvertFromString("103, 103, 103"), Color)
+            sampleXButton.ForeColor = DirectCast(New ColorConverter().ConvertFromString("103, 103, 103"), Color)
+            Panel3.BackColor = sampleTitleBar.BackColor
+            startButtonIcon.BackColor = sampleStartButton.BackColor()
+            sampleXButton.ForeColor = sampleStartButton.ForeColor()
+            sampleMinButton.ForeColor = sampleXButton.ForeColor()
         End If
     End Sub
 

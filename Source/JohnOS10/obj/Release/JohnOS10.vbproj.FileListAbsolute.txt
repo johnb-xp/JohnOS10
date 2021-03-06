@@ -193,3 +193,14 @@ E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.application
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.exe
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.xml
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.pdb
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\x86\WebView2Loader.dll
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\x64\WebView2Loader.dll
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\arm64\WebView2Loader.dll
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.Core.dll
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.WinForms.dll
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.Wpf.dll
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.Core.xml
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.WinForms.xml
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.Wpf.xml
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.CopyComplete
+E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.newBrowser.resources
