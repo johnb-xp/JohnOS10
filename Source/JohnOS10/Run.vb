@@ -109,9 +109,15 @@
             Case "browser -patch"
                 BrowserPatcher.Show()
             Case "browser -new"
-                newBrowser.Show()
-            Case "newBrowser"
-                newBrowser.Show()
+                Browser.Show()
+            Case "browser"
+                Desktop.launchBrowser()
+            Case "browser -old"
+                oldBrowser.Show()
+            Case "browser -classic"
+                oldBrowser.Show()
+            Case "oldbrowser"
+                oldBrowser.Show()
             Case "reset"
                 My.Settings.FirstRun = True
                 My.Settings.Save()

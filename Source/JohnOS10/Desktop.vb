@@ -16,22 +16,25 @@ Public Class Desktop
     End Sub
 
     Private Sub BrowserLabel_Click(sender As Object, e As EventArgs) Handles browserLabel.Click
-        If Not My.Settings.browserPatched Then
-            BrowserPatcher.Show()
-        Else
-            Browser.Show()
-        End If
-        ' Launches the browser - if the browser is not set up it will launch its setup program.
+        launchBrowser()
     End Sub
 
     Private Sub IE_Icon_Click(sender As System.Object, e As System.EventArgs) Handles IE_Icon.Click
-        If Not My.Settings.browserPatched Then
-            BrowserPatcher.Show()
+        launchBrowser()
+    End Sub
+
+    Public Sub launchBrowser()
+        ' Launches the browser - if the browser is not set up it will launch its setup program.
+        If My.Settings.oldBrowser Then
+            If Not My.Settings.browserPatched Then
+                BrowserPatcher.Show()
+            Else
+                oldBrowser.Show()
+            End If
         Else
             Browser.Show()
         End If
     End Sub
-
     Private Sub Notepad_Icon_Click(sender As System.Object, e As System.EventArgs) Handles Notepad_Icon.Click
         Notepad.Show()
     End Sub
@@ -81,7 +84,7 @@ Public Class Desktop
         networkIcon.Hide()
         Try
             Dim client As WebClient = New WebClient()
-            Dim reader As StreamReader = New StreamReader(client.OpenRead("http://johnbilkey.cf/johnos/latest.txt"))
+            Dim reader As StreamReader = New StreamReader(client.OpenRead("http://johnbilkey.com/johnos/latest.txt"))
             latest = reader.ReadLine()
             ''Checks for Updates based on the version stated in the "AboutJohnOS" program
             If latest.Equals(AboutJohnOS.GetVersion()) Then

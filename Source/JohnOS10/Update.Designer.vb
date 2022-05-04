@@ -173,7 +173,7 @@ Partial Class UpdateJOS
         Me.WebBrowser1.ScriptErrorsSuppressed = True
         Me.WebBrowser1.Size = New System.Drawing.Size(613, 410)
         Me.WebBrowser1.TabIndex = 6
-        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.cf/johnos/update", System.UriKind.Absolute)
+        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.com/johnos/update", System.UriKind.Absolute)
         '
         'UpdateJOS
         '

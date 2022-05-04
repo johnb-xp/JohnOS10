@@ -1,5 +1,4 @@
-﻿Public Class newBrowser
-    '' Working on updating to browser based on WebView2 (Chromium Edge - Requires newer .NET Framework and Chromium engine in Windows)
+﻿Public Class oldBrowser
     Private Sub Browser_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size
     End Sub
@@ -9,19 +8,19 @@
     End Sub
 
     Private Sub BackButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles backButton.Click
-        WebView21.GoBack()
+        WebBrowser1.GoBack()
     End Sub
 
     Private Sub RefreshButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles refreshButton.Click
-        WebView21.Refresh()
+        WebBrowser1.Refresh()
     End Sub
 
     Private Sub GoButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles goButton.Click
-        Me.WebView21.CoreWebView2.Navigate(urlBar.Text)
+        WebBrowser1.Navigate(urlBar.Text)
     End Sub
 
     Private Sub ForwardButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles forwardButton.Click
-        WebView21.GoForward()
+        WebBrowser1.GoForward()
     End Sub
     Private Sub Panel1_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Panel1.MouseDown
         If e.Button = MouseButtons.Left Then
@@ -42,7 +41,7 @@
     '' About Button
 
     Private Sub HomeButton_Click(sender As System.Object, e As System.EventArgs) Handles homeButton.Click
-        Me.WebView21.CoreWebView2.Navigate("http://johnbilkey.cf/johnos")
+        WebBrowser1.Navigate("http://johnbilkey.com/johnos")
     End Sub
     '' Home Button
 
@@ -62,22 +61,21 @@
 
     Private Sub UrlBar_KeyDown(sender As Object, e As KeyEventArgs) Handles urlBar.KeyDown
         If e.KeyCode = Keys.Enter Then
-            Me.WebView21.CoreWebView2.Navigate(urlBar.Text)
+            WebBrowser1.Navigate(urlBar.Text)
             e.Handled = True
             e.SuppressKeyPress = True
         End If
     End Sub
     '' Handles enter key
 
-    Private Sub WebView2_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs)
-        urlBar.Text = Me.WebView21.Source.ToString()
+    Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
+        urlBar.Text = WebBrowser1.Url.ToString()
     End Sub
     ''Go Button
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles searchButton.Click
-        Me.WebView21.CoreWebView2.Navigate("https://duckduckgo.com/?t=palemoon&q=" & urlBar.Text)
+        WebBrowser1.Navigate("https://duckduckgo.com/?t=palemoon&q=" & urlBar.Text)
     End Sub
-
     '' Search Button
 
 End Class

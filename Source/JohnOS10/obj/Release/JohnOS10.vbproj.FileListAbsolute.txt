@@ -204,3 +204,68 @@ E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.Wpf.xml
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.CopyComplete
 E:\Documents\GitHub\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.newBrowser.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.exe.config
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.exe.manifest
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.application
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.exe
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.pdb
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\JohnOS 10.xml
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.Core.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.Core.xml
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\Interop.WMPLib.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\bin\Release\AxInterop.WMPLib.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.AssemblyReference.cache
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.SuggestedBindingRedirects.cache
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\Interop.WMPLib.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\AxInterop.WMPLib.dll
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.ResolveComReference.cache
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.allPrograms.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.oldBrowser.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.BrowserPatcher.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Calendar.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Clock.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.DisplaySettings.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Egg.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Browser.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.ResourceMonitor.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Run.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.RunError.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Themes.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Welcome.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Settings.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Desktop.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.BitcoinPrice.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Maps.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Launcher.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.NetworkDiagnostic.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.RadioMarg.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Minesweeper.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.AboutJohnOS.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.FileManager.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Notepad.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Shutdown.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.StartMenu.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Yortzee.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.JIM.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.MoonPhase.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.MediaPlayer.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.UpdateJOS.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.AboutIE.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Calc.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.Resources.resources
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.GenerateResource.cache
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.CoreCompileInputs.cache
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.TrustInfo.xml
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.exe.manifest
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.application
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS10.vbproj.CopyComplete
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.exe
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.xml
+C:\Users\bilkeyj\OneDrive - Milwaukee School of Engineering\JohnOS10\Source\JohnOS10\obj\Release\JohnOS 10.pdb

@@ -53,7 +53,7 @@ Public Class NetworkDiagnostic
         '' and serving files
         Try
             Dim client As WebClient = New WebClient()
-            Dim reader As StreamReader = New StreamReader(client.OpenRead("http://johnbilkey.cf/johnos/latest.txt"))
+            Dim reader As StreamReader = New StreamReader(client.OpenRead("http://johnbilkey.com/johnos/latest.txt"))
             JOSIndicator.BackgroundImage = My.Resources.josconnect
             infobox.Text = "Connected to JohnOS Internet Service"
         Catch

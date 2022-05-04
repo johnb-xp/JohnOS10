@@ -39,7 +39,6 @@ Partial Class AboutJohnOS
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel3.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -117,7 +116,7 @@ Partial Class AboutJohnOS
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(149, 18)
         Me.Label8.TabIndex = 38
-        Me.Label8.Text = "Updated 3/5/2021"
+        Me.Label8.Text = "Updated 5/3/2022"
         '
         'Label4
         '
@@ -173,7 +172,6 @@ Partial Class AboutJohnOS
         Me.Panel1.BackColor = Global.JohnOS10.My.MySettings.Default.backColor
         Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel1.Controls.Add(Me.Label10)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label2)
@@ -240,7 +238,7 @@ Partial Class AboutJohnOS
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(215, 16)
         Me.Label3.TabIndex = 33
-        Me.Label3.Text = "Made in 2015 - 2020 by John Bilkey"
+        Me.Label3.Text = "Made in 2015 - 2022 by John Bilkey"
         '
         'Panel2
         '
@@ -270,18 +268,6 @@ Partial Class AboutJohnOS
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "About JohnOS"
         '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(327, 50)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(54, 24)
-        Me.Label10.TabIndex = 41
-        Me.Label10.Text = "BETA"
-        '
         'AboutJohnOS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -301,7 +287,6 @@ Partial Class AboutJohnOS
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
@@ -324,5 +309,4 @@ Partial Class AboutJohnOS
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents versionNumber As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents Label10 As Label
 End Class

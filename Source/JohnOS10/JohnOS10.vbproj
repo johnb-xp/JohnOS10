@@ -13,13 +13,13 @@
     <AssemblyName>JohnOS 10</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PublishUrl>C:\Users\John\Desktop\JohnOS10\</PublishUrl>
+    <PublishUrl>C:\Users\bilkeyj\Desktop\JohnOS 10\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -29,15 +29,15 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
-    <UpdateUrl>http://johnbilkey.cf/johnos/update/</UpdateUrl>
+    <UpdateUrl>http://johnbilkey.com/johnos/update/</UpdateUrl>
     <TargetCulture>en-US</TargetCulture>
     <ProductName>JohnOS 10</ProductName>
     <PublisherName>JohnOS</PublisherName>
     <SuiteName>JohnOS</SuiteName>
     <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>42</ApplicationRevision>
-    <ApplicationVersion>10.0.0.42</ApplicationVersion>
+    <ApplicationRevision>43</ApplicationRevision>
+    <ApplicationVersion>10.0.0.43</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -139,14 +139,14 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.705.50, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.705.50\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.1210.30, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.1210.30\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.705.50, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.705.50\lib\net45\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.1210.30, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.1210.30\lib\net45\Microsoft.Web.WebView2.WinForms.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.705.50, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.705.50\lib\net45\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.1210.30, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.1210.30\lib\net45\Microsoft.Web.WebView2.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll</HintPath>
@@ -183,6 +183,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="oldBrowser.designer.vb">
+      <DependentUpon>oldBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="oldBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="browserPatcher.Designer.vb">
       <DependentUpon>browserPatcher.vb</DependentUpon>
     </Compile>
@@ -213,10 +219,10 @@
     <Compile Include="DisplaySettings.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="newBrowser.Designer.vb">
-      <DependentUpon>newBrowser.vb</DependentUpon>
+    <Compile Include="Browser.Designer.vb">
+      <DependentUpon>Browser.vb</DependentUpon>
     </Compile>
-    <Compile Include="newBrowser.vb">
+    <Compile Include="Browser.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ResourceMonitor.Designer.vb">
@@ -356,12 +362,6 @@
     <Compile Include="MediaPlayer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Browser.Designer.vb">
-      <DependentUpon>Browser.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Browser.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Update.Designer.vb">
       <DependentUpon>Update.vb</DependentUpon>
     </Compile>
@@ -396,6 +396,9 @@
     <EmbeddedResource Include="allPrograms.resx">
       <DependentUpon>allPrograms.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="oldBrowser.resx">
+      <DependentUpon>oldBrowser.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="browserPatcher.resx">
       <DependentUpon>browserPatcher.vb</DependentUpon>
     </EmbeddedResource>
@@ -411,8 +414,8 @@
     <EmbeddedResource Include="Egg.resx">
       <DependentUpon>Egg.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="newBrowser.resx">
-      <DependentUpon>newBrowser.vb</DependentUpon>
+    <EmbeddedResource Include="Browser.resx">
+      <DependentUpon>Browser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ResourceMonitor.resx">
       <DependentUpon>ResourceMonitor.vb</DependentUpon>
@@ -480,9 +483,6 @@
     <EmbeddedResource Include="MediaPlayer.resx">
       <DependentUpon>MediaPlayer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Browser.resx">
-      <DependentUpon>Browser.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Update.resx">
       <DependentUpon>Update.vb</DependentUpon>
     </EmbeddedResource>
@@ -545,19 +545,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JohnOS 10.ico" />
+    <None Include="packages.config" />
     <None Include="Resources\beach.jpg" />
     <None Include="Resources\lewandowski.jpg" />
     <None Include="Resources\default_wall.jpg" />
     <None Include="Resources\mountains.jpg" />
     <None Include="Resources\john.jpg" />
-    <None Include="packages.config" />
     <None Include="Resources\nicole.jpg" />
     <None Include="Resources\internetconnected.png" />
     <None Include="Resources\update.png" />
     <None Include="Resources\test.png" />
     <None Include="Resources\nointernet.png" />
     <None Include="Resources\josconnect.png" />
-    <None Include="Resources\ua.txt" />
     <None Include="Resources\background.gif" />
     <None Include="Resources\river_sumida.jpg" />
     <None Include="Resources\gone_fishing.jpg" />
@@ -593,12 +592,12 @@
     </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
-  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.705.50\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.705.50\build\Microsoft.Web.WebView2.targets')" />
+  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.1210.30\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.1210.30\build\Microsoft.Web.WebView2.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.705.50\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.705.50\build\Microsoft.Web.WebView2.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.1210.30\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.1210.30\build\Microsoft.Web.WebView2.targets'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

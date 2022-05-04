@@ -37,9 +37,10 @@ Partial Class Browser
         Me.homeButton = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.searchButton = New System.Windows.Forms.Button()
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.WebView21 = New Microsoft.Web.WebView2.WinForms.WebView2()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        CType(Me.WebView21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -146,7 +147,7 @@ Partial Class Browser
         Me.urlBar.Name = "urlBar"
         Me.urlBar.Size = New System.Drawing.Size(555, 20)
         Me.urlBar.TabIndex = 0
-        Me.urlBar.Text = "http://johnbilkey.cf/johnos/"
+        Me.urlBar.Text = "http://johnbilkey.com/johnos/"
         '
         'goButton
         '
@@ -265,26 +266,29 @@ Partial Class Browser
         Me.searchButton.TabIndex = 7
         Me.searchButton.UseVisualStyleBackColor = False
         '
-        'WebBrowser1
+        'WebView21
         '
-        Me.WebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.WebView21.AllowExternalDrop = True
+        Me.WebView21.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.WebBrowser1.Location = New System.Drawing.Point(3, 58)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.ScriptErrorsSuppressed = True
-        Me.WebBrowser1.Size = New System.Drawing.Size(793, 509)
-        Me.WebBrowser1.TabIndex = 13
-        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.cf/johnos", System.UriKind.Absolute)
+        Me.WebView21.BackColor = System.Drawing.Color.White
+        Me.WebView21.CreationProperties = Nothing
+        Me.WebView21.DefaultBackgroundColor = System.Drawing.Color.White
+        Me.WebView21.Location = New System.Drawing.Point(3, 57)
+        Me.WebView21.Name = "WebView21"
+        Me.WebView21.Size = New System.Drawing.Size(793, 510)
+        Me.WebView21.Source = New System.Uri("http://johnbilkey.com/johnos", System.UriKind.Absolute)
+        Me.WebView21.TabIndex = 15
+        Me.WebView21.ZoomFactor = 1.0R
         '
-        'oldBrowser
+        'Browser
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = Global.JohnOS10.My.MySettings.Default.titleBarColor
         Me.ClientSize = New System.Drawing.Size(800, 570)
-        Me.Controls.Add(Me.WebBrowser1)
+        Me.Controls.Add(Me.WebView21)
         Me.Controls.Add(Me.homeButton)
         Me.Controls.Add(Me.informationButton)
         Me.Controls.Add(Me.urlBar)
@@ -294,7 +298,7 @@ Partial Class Browser
         Me.ForeColor = System.Drawing.Color.Transparent
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "oldBrowser"
+        Me.Name = "Browser"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Browser"
@@ -302,6 +306,7 @@ Partial Class Browser
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
+        CType(Me.WebView21, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -320,5 +325,5 @@ Partial Class Browser
     Friend WithEvents maxButton As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents searchButton As Button
-    Friend WithEvents WebBrowser1 As WebBrowser
+    Friend WithEvents WebView21 As Microsoft.Web.WebView2.WinForms.WebView2
 End Class

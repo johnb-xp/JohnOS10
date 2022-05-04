@@ -44,7 +44,7 @@ Partial Class Yortzee
         Me.WebBrowser1.ScrollBarsEnabled = False
         Me.WebBrowser1.Size = New System.Drawing.Size(374, 287)
         Me.WebBrowser1.TabIndex = 17
-        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.cf/johnos/yortzee.html", System.UriKind.Absolute)
+        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.com/johnos/yortzee.html", System.UriKind.Absolute)
         '
         'Label1
         '

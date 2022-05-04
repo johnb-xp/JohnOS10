@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class newBrowser
+Partial Class oldBrowser
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class newBrowser
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(newBrowser))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(oldBrowser))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.maxButton = New System.Windows.Forms.Button()
         Me.minButton = New System.Windows.Forms.Button()
@@ -35,12 +35,11 @@ Partial Class newBrowser
         Me.refreshButton = New System.Windows.Forms.Button()
         Me.informationButton = New System.Windows.Forms.Button()
         Me.homeButton = New System.Windows.Forms.Button()
+        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.searchButton = New System.Windows.Forms.Button()
-        Me.WebView21 = New Microsoft.Web.WebView2.WinForms.WebView2()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
-        CType(Me.WebView21, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -101,9 +100,9 @@ Partial Class newBrowser
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Location = New System.Drawing.Point(6, 4)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(123, 20)
+        Me.Label1.Size = New System.Drawing.Size(189, 20)
         Me.Label1.TabIndex = 100
-        Me.Label1.Text = "JohnOS Browser"
+        Me.Label1.Text = "JohnOS Internet Explorer"
         '
         'closeButton
         '
@@ -147,7 +146,7 @@ Partial Class newBrowser
         Me.urlBar.Name = "urlBar"
         Me.urlBar.Size = New System.Drawing.Size(555, 20)
         Me.urlBar.TabIndex = 0
-        Me.urlBar.Text = "http://johnbilkey.cf/johnos/"
+        Me.urlBar.Text = "http://johnbilkey.com/johnos/"
         '
         'goButton
         '
@@ -232,6 +231,19 @@ Partial Class newBrowser
         Me.homeButton.TabIndex = 4
         Me.homeButton.UseVisualStyleBackColor = False
         '
+        'WebBrowser1
+        '
+        Me.WebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.WebBrowser1.Location = New System.Drawing.Point(3, 58)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.ScriptErrorsSuppressed = True
+        Me.WebBrowser1.Size = New System.Drawing.Size(793, 509)
+        Me.WebBrowser1.TabIndex = 13
+        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.com/johnos", System.UriKind.Absolute)
+        '
         'Panel2
         '
         Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -266,26 +278,13 @@ Partial Class newBrowser
         Me.searchButton.TabIndex = 7
         Me.searchButton.UseVisualStyleBackColor = False
         '
-        'WebView21
-        '
-        Me.WebView21.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.WebView21.BackColor = System.Drawing.Color.White
-        Me.WebView21.CreationProperties = Nothing
-        Me.WebView21.Location = New System.Drawing.Point(3, 58)
-        Me.WebView21.Name = "WebView21"
-        Me.WebView21.Size = New System.Drawing.Size(793, 509)
-        Me.WebView21.TabIndex = 15
-        Me.WebView21.ZoomFactor = 1.0R
-        '
-        'Browser
+        'oldBrowser
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = Global.JohnOS10.My.MySettings.Default.titleBarColor
         Me.ClientSize = New System.Drawing.Size(800, 570)
-        Me.Controls.Add(Me.WebView21)
+        Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.homeButton)
         Me.Controls.Add(Me.informationButton)
         Me.Controls.Add(Me.urlBar)
@@ -295,7 +294,7 @@ Partial Class newBrowser
         Me.ForeColor = System.Drawing.Color.Transparent
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Browser"
+        Me.Name = "oldBrowser"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Browser"
@@ -303,7 +302,6 @@ Partial Class newBrowser
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
-        CType(Me.WebView21, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -320,7 +318,7 @@ Partial Class newBrowser
     Friend WithEvents homeButton As System.Windows.Forms.Button
     Friend WithEvents minButton As Button
     Friend WithEvents maxButton As Button
+    Friend WithEvents WebBrowser1 As WebBrowser
     Friend WithEvents Panel2 As Panel
     Friend WithEvents searchButton As Button
-    Friend WithEvents WebView21 As Microsoft.Web.WebView2.WinForms.WebView2
 End Class

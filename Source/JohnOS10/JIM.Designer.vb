@@ -43,7 +43,7 @@ Partial Class JIM
         Me.WebBrowser1.Size = New System.Drawing.Size(414, 307)
         Me.WebBrowser1.TabIndex = 3
         Me.WebBrowser1.TabStop = False
-        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.cf/johnos/jim.html", System.UriKind.Absolute)
+        Me.WebBrowser1.Url = New System.Uri("http://johnbilkey.com/johnos/jim.html", System.UriKind.Absolute)
         '
         'Button1
         '

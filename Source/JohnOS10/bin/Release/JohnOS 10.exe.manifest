@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="JohnOS 10.exe" version="10.0.0.42" publicKeyToken="0000000000000000" language="en-US" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="JohnOS 10.exe" version="10.0.0.43" publicKeyToken="0000000000000000" language="en-US" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="JohnOS 10.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+HZ/V/XAdHSt9Un4fpkTMze/IWFWpVTXhqEE3lzRKb0=</dsig:DigestValue>
+        <dsig:DigestValue>wfy6GZ20ayZPD4MJxsuN8ESxZxHlDiZeyFnaUnAPwq4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>enhjfE9JxdfS/Zzkf4RHZg6aT1dx4L7netckiN4GY3c=</dsig:DigestValue>
+        <dsig:DigestValue>gqGTh8cvYymJG7Ai3QrvpqZAFoXxwrGaAQlplUZzZLo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,62 +74,53 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gPRKTg9wWs4mqzO3hwiHcLl99jdsEI9UTxZHLThlm5M=</dsig:DigestValue>
+        <dsig:DigestValue>Xz1+U1KgFHnH+CZM+uQJ/mQd9IMqHNnrr5WWa2vkLUA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Core.dll" size="143264">
-      <assemblyIdentity name="Microsoft.Web.WebView2.Core" version="1.0.705.50" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Core.dll" size="354248">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Core" version="1.0.1210.30" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>RYGCfdhJqgRBMO8fFFcGswmXpUdQ+2eFATE4NvS5bRk=</dsig:DigestValue>
+        <dsig:DigestValue>ttEsQG3RPxO2cQGO1vB1C2pynstjtFfZ6aylbIJFPjY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.WinForms.dll" size="28568">
-      <assemblyIdentity name="Microsoft.Web.WebView2.WinForms" version="1.0.705.50" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.WinForms.dll" size="35280">
+      <assemblyIdentity name="Microsoft.Web.WebView2.WinForms" version="1.0.1210.30" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EBl06LLoSqp8YXyh1+cP4C3y1FDBoezdkkyPNP9Bus0=</dsig:DigestValue>
+        <dsig:DigestValue>JudYiX6ZcBLp0w0UEsby0a23eOb8Fkurb6IFXv6urRI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Wpf.dll" size="31128">
-      <assemblyIdentity name="Microsoft.Web.WebView2.Wpf" version="1.0.705.50" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Web.WebView2.Wpf.dll" size="41424">
+      <assemblyIdentity name="Microsoft.Web.WebView2.Wpf" version="1.0.1210.30" publicKeyToken="2A8AB48044D2601E" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2IK+OhmZ45YYKmh6KoOV+F8eQ2TmVsTDzloz0z1VHus=</dsig:DigestValue>
+        <dsig:DigestValue>JFjupCz3m2A7DeIBLuVPtPzr89dG6XoNlc7Md9KLdsE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="arm64\WebView2Loader.dll" size="123808">
+  <file name="JohnOS 10.exe.config" size="2812">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>m9k51Fck6wVVDZzwaPIEnH8NsAyh7UFLR7/+JHh193c=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="JohnOS 10.exe.config" size="2687">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>RPFsRZ1GfSo0gSfZiHdu4Wlh8qw+T2vhXda+Uhoqvrc=</dsig:DigestValue>
+      <dsig:DigestValue>oPaPKaJ1d11J9jb3l41OtZ55u7iZM2YvaEQHGWKmU7o=</dsig:DigestValue>
     </hash>
   </file>
   <file name="JohnOS 10.ico" size="370070">
@@ -141,22 +132,31 @@
       <dsig:DigestValue>Cw2nw1sy79BmgMa3MLMl9mGZkeWuhkL5nHEVzu5cX3k=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="x64\WebView2Loader.dll" size="136088">
+  <file name="runtimes\win-arm64\native\WebView2Loader.dll" size="128976">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>bbBmSKdJ66JthZ+tTU4mJcKLjGDodwvHbH6kRUJFQ/U=</dsig:DigestValue>
+      <dsig:DigestValue>J2SEc0Gd9w50W1KmOUctWk/UnsNd3bIBXUANmNRNMC4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="x86\WebView2Loader.dll" size="109984">
+  <file name="runtimes\win-x64\native\WebView2Loader.dll" size="142288">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>d6KjCXwK9uiE0vdkPf44CURTMJ3SQzwzcw/KEKBHdBE=</dsig:DigestValue>
+      <dsig:DigestValue>fiIs5elzHnRgXDFujEJc4hNKgf11Zs5m2VFMTfFpLLk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x86\native\WebView2Loader.dll" size="111552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tEi4nvnWutHPSvaf3VkqUY7NgmtzRjEHMCx8eTOXqDY=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
