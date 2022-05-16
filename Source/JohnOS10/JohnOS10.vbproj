@@ -22,7 +22,7 @@
     <PublishUrl>C:\Users\bilkeyj\Desktop\JohnOS 10\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>5</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
@@ -36,8 +36,9 @@
     <SuiteName>JohnOS</SuiteName>
     <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>43</ApplicationRevision>
-    <ApplicationVersion>10.0.0.43</ApplicationVersion>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>44</ApplicationRevision>
+    <ApplicationVersion>10.0.0.44</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>

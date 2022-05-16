@@ -91,7 +91,7 @@ Partial Class AboutJohnOS
         Me.versionNumber.Name = "versionNumber"
         Me.versionNumber.Size = New System.Drawing.Size(69, 18)
         Me.versionNumber.TabIndex = 40
-        Me.versionNumber.Text = "1043"
+        Me.versionNumber.Text = "1044"
         '
         'Label9
         '
@@ -116,7 +116,7 @@ Partial Class AboutJohnOS
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(149, 18)
         Me.Label8.TabIndex = 38
-        Me.Label8.Text = "Updated 5/3/2022"
+        Me.Label8.Text = "Updated 5/16/2022"
         '
         'Label4
         '

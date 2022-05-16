@@ -273,26 +273,6 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to &lt;!DOCTYPE html&gt;
-        '''&lt;html&gt;
-        '''&lt;font face=&quot;Helvetica, Arial, sans-serif&quot;&gt;
-        '''&lt;body&gt;
-        '''&lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;
-        '''&lt;script&gt;
-        '''  var x = navigator.userAgent;
-        '''  document.getElementById(&quot;demo&quot;).innerHTML = x;
-        '''&lt;/script&gt;
-        '''&lt;/body&gt;
-        '''&lt;/font&gt;
-        '''&lt;/html&gt;.
-        '''</summary>
-        Public ReadOnly Property ua() As String
-            Get
-                Return ResourceManager.GetString("ua", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Public ReadOnly Property update() As System.Drawing.Bitmap

@@ -23,11 +23,7 @@
     End Sub
 
     Private Sub browserButton_Click(sender As Object, e As EventArgs) Handles browserButton.Click
-        If Not My.Settings.browserPatched Then
-            BrowserPatcher.Show()
-        Else
-            Browser.Show()
-        End If
+        Desktop.launchBrowser()
         Me.Hide()
         allPrograms.Hide()
 
@@ -97,7 +93,9 @@
     End Sub
 
     Private Sub exitButton_Click(sender As Object, e As EventArgs) Handles exitButton.Click
-        Desktop.Close()
+        Me.Close()
+        Application.Exit()
+        End
     End Sub
 
     Private Sub shutdownButton_Click(sender As Object, e As EventArgs) Handles shutdownButton.Click
