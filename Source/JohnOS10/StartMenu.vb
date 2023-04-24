@@ -93,7 +93,6 @@
     End Sub
 
     Private Sub exitButton_Click(sender As Object, e As EventArgs) Handles exitButton.Click
-        Me.Close()
         Application.Exit()
         End
     End Sub
